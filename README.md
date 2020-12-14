@@ -2,7 +2,7 @@
 
 
 Olá 🤓 <p>
-O formulário de login animado HTML+CSS e JS é parte de uma série de desafios pessoais para explorar ideias em Ui design. Fique a vontade para explorar e não esqueça de compartilhar e dar uma estrelinha⭐️ 
+O formulário de login animado HTML+CSS e JS é parte de uma série de desafios pessoais para explorar ideias em Ui design. <br>Fique a vontade para explorar e não esqueça de compartilhar e dar uma estrelinha⭐️ 
 
 
 Previsualizar: [https://bit.ly/3oOTETW](url)
