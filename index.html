@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esocla de programação | Login </title>
+    <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <!-- Painel esquerdo -->
+        <div class="painel-esquerdo">
+            <div class="ilustracao">
+                <img src="./assets/img/ilustracao3d.png" alt="ilustracao" class="image" />
+            </div>
+            <h2>Escola de programação</h2>
+        </div>
+        <!-- Fim do painel esquerdo -->
+
+        <!-- Painel direito -->
+        <div class="painel-direito">
+            <h1>
+                <strong>Área do aluno</strong>
+                Bem-vindo!
+            </h1>
+            <!-- inicio do formulário de login -->
+            <form class="formulario-animado">
+                <h3>E-mail ou nome de usuário</h3>
+                <div class="grupo-do-formulario">
+                    <label for="username">Nome</label>
+                    <input type="text" id="username" class="username" />
+                </div>
+                <div class="grupo-do-formulario">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" class="password" />
+                </div>
+                <div class="grupo-do-formulario flex-end">
+                    <input type="submit" value="Entrar" class="button" />
+                </div>
+
+                <div class="esqueceu-senha">
+                    <a href="#" class="link">Esqueceu sua senha?</a>
+                </div>
+            </form><!-- fim do formulário de login -->
+        </div>
+        <!-- Painel fim do painel direito -->
+    </div>
+    <!-- JavaScript - Efeito da Animação dos campos do formulário de login -->
+    <script type="text/javascript">
+        let input_fields = document.querySelectorAll('input');
+        for (let i =0; i < input_fields.length; i++) {
+             let field = input_fields[i];
+             field.addEventListener('input', function (e) {
+             if (e.target.value !="") {
+                 e.target.parentNode.classList.add('has-content');
+             } else if (e.target.value  == "") {
+               e.target.parentNode.classList.remove('has-content');
+            }
+             });
+        }
+    </script> <!-- JavaScript - Fim do efeito da Animação do formulário de login -->
+</body>
+</html>
