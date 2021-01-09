@@ -4,9 +4,6 @@ O formulário de login com micro interação em HTML+CSS e JS é parte de uma s�
 Fique a vontade para forkar/clonar e dá uma ⭐️
 
 
-Pré-visualizar: [https://bit.ly/3oOTETW](url)
-
-
 Prints 
 
 ![Captura de Tela 2020-12-14 às 19 59 03](https://user-images.githubusercontent.com/4931735/102146544-eaee0680-3e47-11eb-919e-9c892fe3bf06.png)
