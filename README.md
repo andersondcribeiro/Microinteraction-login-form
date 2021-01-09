@@ -1,6 +1,6 @@
 # Formulário de login com micro interação 
 
-O formulário de login com micro interação em HTML+CSS e JS é parte de uma série de desafios pessoais para explorar ideias em design de interface de usuário/Ui design.
+O formulário de login com micro interação em HTML+CSS e JS é parte de uma série de desafios pessoais para explorar ideias em design de interface de usuário/Ui design.<p>
 Fique a vontade para forkar/clonar e dá uma ⭐️
 
 
